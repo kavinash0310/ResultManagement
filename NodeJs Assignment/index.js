@@ -4,7 +4,7 @@ const bodyparser = require('body-parser');
 const exphbs = require('express-handlebars');
 
 const app = express();
-const port = 2000;
+const port = 2020;
 
 //Create connection
 const db = mysql.createPool({
