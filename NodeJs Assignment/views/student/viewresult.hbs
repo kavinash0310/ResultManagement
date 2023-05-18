@@ -1,0 +1,31 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrum-item"> 
+            <a href="/"><button type="reset" class="btn btn-outline-primary">Home</button>
+            </a> 
+        </li>
+    </ol>
+</nav>
+
+<h2> Result </h2>
+<div class="viewresult p-5" >
+    {{#each rows}}
+
+    <div>
+        <h3>Name:: {{this.name}}</h3>
+    </div>
+    <div class="row">
+        <h3>Roll Number:: {{this.rollno}}</h3>
+    </div>
+    <div>
+        <h3>Date Of Birth:: {{this.dob}}</h3>
+    </div>
+    <div>
+        <h3>Score:: {{this.score}}</h3>
+    </div>
+
+    <br>
+
+    {{/each}}
+</div>
+
