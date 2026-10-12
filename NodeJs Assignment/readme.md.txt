@@ -1,11 +1,1 @@
--> create a database "ResultManagement"
-
-	{
-    host             : 'localhost',
-    user             : 'root',
-    password         : 'root',
-	}
-	or else (modify inside index.js)
-
--> Run index.js
--> use "nagarro" as password to login for Teacher
+This is a legacy note. See the repository-level README.md for current project information and local setup. Do not store passwords or database credentials in this file.
